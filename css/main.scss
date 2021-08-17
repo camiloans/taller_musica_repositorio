@@ -1,0 +1,329 @@
+$padding: 4em;
+
+
+body{
+    background: linear-gradient(330deg, rgb(139,69,19) 0%, 	rgba(252, 252, 234, 0.753)  100%);
+ }
+ 
+/*HEADER*/
+
+.header{
+    padding-top: $padding/2;
+    padding-bottom: 2em;
+    background-color:rgba(255, 235, 205, 0.637) ;
+    border: solid 1.5px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.fuenteTitulo{
+    font-family: 'Pacifico', cursive;
+    color: rgb(122, 22, 22);
+    text-decoration: none;
+   }
+
+
+/*CAROUSEL INICIO*/
+   .carousel{
+       border-left: solid 2px;
+       border-right: solid 2px;
+   }
+ 
+   .imgCarousel {
+    height: 35em;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-bottom: solid 2px;
+  }
+  
+
+li{
+    margin-left: ($padding/2)+1;
+  }
+
+  .carousel-caption{
+      background: rgba(245, 222, 179, 0.637);
+      border-radius: 20px;
+  }
+
+  .fotoLogo{
+      height: $padding+11;
+      -o-object-fit: cover;
+         object-fit: cover;
+    }
+  
+    /*Grilla INICIO*/
+  .gridGen {
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "area1 area2 area3"
+      "area4 area5 area6";
+  }
+  
+  .area1 {  grid-area: area1;
+            text-align: center;
+            padding: 2em 1em 2em 1em; }
+  
+  .area2 {  grid-area: area2;
+            text-align: center;
+            padding: 2em 1em 2em 1em; }
+  
+  .area4 {  grid-area: area4;
+            text-align: center;
+            padding: 2em 1em 2em 1em; }
+  
+  .area5 {  grid-area: area5;
+            text-align: center;
+            padding: 0em 1em 0em 1em; }
+
+  .area6{
+            grid-area: area6;
+            text-align: center;
+            padding: 2em 1em 2em 1em;
+  }
+  
+  .area3 {  grid-area: area3; 
+            text-align: center;
+            padding: 2em 1em 2em 1em;
+            }
+
+
+    /*FOOTER*/
+
+  .footer{
+    padding-top: 30px;
+    background-color:rgba(255, 235, 205, 0.637) ;
+    padding-bottom: $padding/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1.5px;
+  }
+
+  .footer__texto{
+    margin-top: 1em;
+  }
+
+    /*SECCION INFORMACIÓN*/
+  .white{
+      background-color: rgba(255, 235, 205, 0.637);
+      padding: 1em;
+      border: solid 1.5px;
+  }
+
+  .black{
+      background-color: rgba(122, 22, 22, 0.884);
+      padding: 1em;
+      border: solid 1.5px;
+  }
+
+  #white{
+    border-left: none;
+  }
+  #black{
+    border-right: none;
+  }
+
+  .centrar{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+  .yMas{
+    font-family: 'Righteous', cursive;
+      color: white;
+  }
+
+  .yMas:hover{
+    text-decoration: underline;
+    color: blue;
+    }
+
+
+/*SECCION MÚSICA*/
+.spotify{
+  width: 20em;
+  height: 20em;
+  border: solid 2px;
+  border-radius: 20px;
+}
+
+.divSpotify{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+
+.cajaSpotify{
+  background-color:rgba(255, 235, 205, 0.233) ;
+  border-right: solid 2px;
+  border-left: solid 2px;
+}
+
+.musica{
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 1.5em;
+
+}
+
+/*SECCION INSTRUMENTOS*/ /*BEM*/
+
+.imgInstrumentos{
+  height: 15em;
+  width: 80%;
+ -o-object-fit: cover;
+  object-fit: cover;
+  border: solid 2px;
+  border-radius: 20px;
+  
+}
+.padInstru{
+  padding: 1em;
+}
+.wrapAudio{
+  word-wrap: break-word;
+}
+
+.borderBottom{
+  border-bottom: solid 1.5px;
+
+}
+
+
+
+.flexImg{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.transformacion3{
+    text-transform: lowercase;
+}
+
+  /*FORMULARIO*/
+  form{
+    width: 450px;
+    margin: auto;
+    border: solid 1.5px;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 7px;
+    
+  }
+  .contacto{
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+  }
+
+  textarea{
+    min-height: 100px;
+    max-height: 200px;
+  }
+
+  #boton{
+    background: #7a5a2d;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .formulario{
+    padding-top: 5em;
+    padding-bottom: 9.2em;
+  }
+
+
+
+  /*MEDIA QUERIES*/
+
+
+  @media only screen and (max-width: 990px){
+    .gridGen {
+      color: black;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "area4 area2 area6"
+        "area4 area2 area6";
+    }
+    .fotoLogo{
+      display: none;
+    }
+    .divSpotify{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 2em;
+      padding-bottom: 1em;
+    }
+
+    .spotify{
+      width: 20em;
+      height: 20em;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    .gridGen {
+      color: black;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "area4 area4 area6"
+        "area2 area2 area6";
+    }
+
+    .formulario{
+      padding-top: 2em;
+    padding-bottom: 3em;
+    }
+    
+  }
+
+  @media only screen and (max-width: 480px){
+    form{
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 480px){
+    .spotify{
+      width: 100%;
+    }
+  }
