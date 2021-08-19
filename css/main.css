@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  background: linear-gradient(330deg, saddlebrown 0%, rgba(252, 252, 234, 0.753) 100%);
+  background: linear-gradient(273deg, saddlebrown 0%, rgba(252, 252, 234, 0.753) 100%);
 }
 
 /*HEADER*/
@@ -9,6 +9,9 @@ body {
   padding-bottom: 2em;
   background-color: rgba(255, 235, 205, 0.637);
   border: solid 1.5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
 }
 
 .titulo {
