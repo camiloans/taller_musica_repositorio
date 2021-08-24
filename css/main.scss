@@ -10,7 +10,7 @@ body{
 .header{
     padding-top: $padding/2;
     padding-bottom: 2em;
-    background-color:rgba(255, 235, 205, 0.637) ;
+    background-color:rgb(255, 235, 205) ;
     border: solid 1.5px;
     
 }
@@ -28,6 +28,7 @@ body{
    }
    #seccion1{
      border-bottom: solid 2px;
+     
    }
    #seccion2{
     margin-top:6em ;
@@ -335,6 +336,9 @@ li{
       padding-top: 2em;
     padding-bottom: 3em;
     }
+    .bi-music-note-list{
+      display: none;
+    }
     
   }
 
@@ -342,9 +346,6 @@ li{
     form{
       width: 100%;
     }
-  }
-
-  @media only screen and (max-width: 480px){
     .spotify{
       width: 100%;
     }

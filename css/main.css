@@ -7,7 +7,7 @@ body {
 .header {
   padding-top: 2em;
   padding-bottom: 2em;
-  background-color: rgba(255, 235, 205, 0.637);
+  background-color: blanchedalmond;
   border: solid 1.5px;
 }
 
@@ -389,15 +389,15 @@ textarea {
     padding-top: 2em;
     padding-bottom: 3em;
   }
+  .bi-music-note-list {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   form {
     width: 100%;
   }
-}
-
-@media only screen and (max-width: 480px) {
   .spotify {
     width: 100%;
   }
