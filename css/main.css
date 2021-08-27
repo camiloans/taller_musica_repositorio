@@ -8,7 +8,6 @@ body {
   padding-top: 2em;
   padding-bottom: 2em;
   background-color: blanchedalmond;
-  border: solid 1.5px;
 }
 
 .titulo {
@@ -26,26 +25,14 @@ body {
   text-decoration: none;
 }
 
-#seccion1 {
-  border-bottom: solid 2px;
-}
-
 #seccion2 {
   margin-top: 6em;
-  margin-bottom: 6em;
-  border-top: solid 1px;
+  margin-bottom: 4em;
 }
 
 #seccion3 {
-  margin-top: 6em;
-  margin-bottom: 6em;
-  border-top: solid 2px;
-}
-
-#seccion4 {
-  margin-top: 6em;
-  margin-bottom: 6em;
-  border-top: solid 2px;
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
 
 /*CAROUSEL INICIO*/
@@ -141,7 +128,7 @@ li {
 /*FOOTER*/
 .footer {
   padding-top: 30px;
-  background-color: rgba(255, 235, 205, 0.637);
+  background-color: blanchedalmond;
   padding-bottom: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -152,7 +139,6 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: solid 1.5px;
 }
 
 .footer__texto {
@@ -163,21 +149,15 @@ li {
 .white {
   background-color: rgba(255, 235, 205, 0.637);
   padding: 1em;
-  border: solid 1.5px;
 }
 
 .black {
   background-color: rgba(122, 22, 22, 0.884);
   padding: 1em;
-  border: solid 1.5px;
 }
 
-#white {
-  border-left: none;
-}
-
-#black {
-  border-right: none;
+.blackLink {
+  color: black;
 }
 
 .centrar {
@@ -204,38 +184,6 @@ li {
 .yMas:hover {
   text-decoration: underline;
   color: blue;
-}
-
-/*SECCION MÚSICA*/
-.spotify {
-  width: 20em;
-  height: 20em;
-  border: solid 2px;
-  border-radius: 20px;
-}
-
-.divSpotify {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-top: 3em;
-  padding-bottom: 2em;
-}
-
-.cajaSpotify {
-  background-color: rgba(255, 235, 205, 0.233);
-  border-right: solid 2px;
-  border-left: solid 2px;
-  border-bottom: solid 2px;
 }
 
 /*SECCION INSTRUMENTOS*/
@@ -265,6 +213,10 @@ li {
 
 .centrarInstru {
   text-align: center;
+}
+
+.fuenteGrande {
+  font-size: 1.5em;
 }
 
 .flexImg {
@@ -310,7 +262,7 @@ form {
 input, textarea {
   width: 100%;
   margin-bottom: 20px;
-  padding: 7px;
+  padding: 8px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 17px;

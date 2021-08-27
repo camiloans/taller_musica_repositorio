@@ -11,9 +11,10 @@ body{
     padding-top: $padding/2;
     padding-bottom: 2em;
     background-color:rgb(255, 235, 205) ;
-    border: solid 1.5px;
+    
     
 }
+
 
 
 .titulo{
@@ -26,25 +27,18 @@ body{
     color: rgb(122, 22, 22);
     text-decoration: none;
    }
-   #seccion1{
-     border-bottom: solid 2px;
-     
-   }
+   
    #seccion2{
-    margin-top:6em ;
-    margin-bottom: 6em;
-    border-top: solid 1px;
+    margin-top: $padding+2 ;
+    margin-bottom: $padding;
+    
    }
    #seccion3{
-    margin-top:6em ;
-    margin-bottom: 6em;
-    border-top: solid 2px;
+    margin-top: $padding;
+    margin-bottom: $padding;
+    
    }
-   #seccion4{
-    margin-top:6em ;
-    margin-bottom: 6em;
-    border-top: solid 2px;
-   }
+   
 
 /*CAROUSEL INICIO*/
    .carousel{
@@ -120,12 +114,12 @@ li{
 
   .footer{
     padding-top: 30px;
-    background-color:rgba(255, 235, 205, 0.637) ;
+    background-color:rgb(255, 235, 205) ;
     padding-bottom: $padding/2;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid 1.5px;
+    
   }
 
   .footer__texto{
@@ -136,21 +130,18 @@ li{
   .white{
       background-color: rgba(255, 235, 205, 0.637);
       padding: 1em;
-      border: solid 1.5px;
+     
   }
 
   .black{
       background-color: rgba(122, 22, 22, 0.884);
       padding: 1em;
-      border: solid 1.5px;
   }
 
-  #white{
-    border-left: none;
+  .blackLink{
+    color: black;
   }
-  #black{
-    border-right: none;
-  }
+
 
   .centrar{
       display: flex;
@@ -171,29 +162,6 @@ li{
     }
 
 
-/*SECCION MÚSICA*/
-.spotify{
-  width: 20em;
-  height: 20em;
-  border: solid 2px;
-  border-radius: 20px;
-}
-
-.divSpotify{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 3em;
-  padding-bottom: 2em;
-}
-
-.cajaSpotify{
-  background-color:rgba(255, 235, 205, 0.233) ;
-  border-right: solid 2px;
-  border-left: solid 2px;
-  border-bottom: solid 2px;
-}
 
 
 /*SECCION INSTRUMENTOS*/ /*BEM*/
@@ -213,6 +181,8 @@ li{
 }
 
 
+
+
 .padInstru{
   padding: 1em;
 }
@@ -223,6 +193,10 @@ li{
 .centrarInstru{
   text-align: center;
   
+}
+
+.fuenteGrande{
+  font-size: 1.5em;
 }
 
 
@@ -260,7 +234,7 @@ li{
   input, textarea{
     width: 100%;
     margin-bottom: 20px;
-    padding: 7px;
+    padding: 8px;
     box-sizing: border-box;
     font-size: 17px;
   }
